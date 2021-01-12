@@ -28,11 +28,20 @@
 <br>
 
 <footer>
+
   <p>&copy; <span id="currentyear"></span>  | Natália Artigas Taparosky | Brazil | <a href="https://www.byui.edu/online" 
         target="_blank">BYUI Online Learning</a></p>
-        <p>Last Updated: <span id="lastupdated"></span></p>
+        <script>
+        var date = document.lastModified;
+          document.write("Last update: " + date);
+        </script>
+      
+        <script>
+          document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+        </script>
+      
   </footer>
-  <script src="js/last-modified.js"></script>
   </body>
   </html> 
+
 
