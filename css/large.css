@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1008px) {
+	main {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1820px;
+  }
+
+  section:nth-child(3) {
+    grid-column: span 1;
+    margin-top: 20px;
+}
+  
+}  

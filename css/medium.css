@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em) {
+
+    h1 {
+      font-size: 2.4em;
+      margin-top: 17px;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+      max-width: 100px;
+  }
+  
+    h2 {
+      font-size: 1em;
+    }
+  
+    header{
+      height: 90px;
+      flex-wrap: wrap;
+      border-radius: 15px;
+    }
+  
+    footer {
+      border-radius: 15px;
+      height: 55px;
+    }
+  
+    section:nth-child(1) {
+      grid-column: span 1;
+      margin-top: 20px;
+  }
+  
+    section:nth-child(2) {
+      grid-column: span 1;
+      margin-top: 20px;
+  }
+    
+  }
