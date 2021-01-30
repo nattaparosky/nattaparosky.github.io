@@ -1,0 +1,165 @@
+.footer-a {
+    color:#D51920;
+    font-weight: bold;
+  }
+  
+  #content {
+    margin: 0 auto;
+    background-color: #FFF185;
+    border-radius: 15px;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: 'Cinzel';
+    font-weight: medium 500;
+    background-color:#fdf29c;
+  }
+
+  header, main, footer {
+    margin: 1.25rem;
+    padding: .5rem;
+    max-width: 50em;
+    border-radius: 15px;
+  }
+
+  header, footer, footer a {
+    text-align: center;
+    background-color: #2F4858;
+    color:white;
+    box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+    max-width: 100%;
+  }
+  
+  /*header {
+    text-align: center;
+    background-color: #2F4858;
+    color: white;
+    border-radius: 15px;
+    padding-bottom: 22px;
+    
+  }*/
+  
+  
+  h1 {
+    font-family:'Nunito', sans-serif;;
+    font-size: 2.3em;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    font-family: 'Noto Serif', serif;
+  }
+  
+  h3 {
+    padding-bottom: 7.5px;
+    font-family: 'Noto Serif', serif;
+  }
+  
+  
+  #logo {
+    height: 180px;
+    width: auto;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:auto;
+  }
+  
+  nav {
+    background-color: #26A6D1;
+    padding: 1em;
+    border-radius: 15px;
+  }
+  
+  nav a {
+  padding: .5em .5em;
+    line-height: 1.45em;
+    color: #2F4858;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  nav li{
+    font-family: 'Nunito', sans-serif;;
+    font-size: 1.25em;
+    border-radius: 15px;
+  }
+  
+  nav ul {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    margin: 0;
+    list-style: none;
+    border-radius: 15px;
+  }
+  
+  nav a:hover {
+     background-color: #2F4858;
+    color: #26A6D1;
+    border-radius: 15px;
+  }
+  
+  
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color:	black;
+  }
+  
+  table {
+    min-width: 350px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .typography-samples {
+      min-width: 50%;
+  }
+  
+  
+  th {
+    background-color: white;
+    color: #4682B4;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  section {
+    background-color: #4682B4;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  table, th, td {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /*footer {
+    background-color: #2F4858;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;  
+  }*/
+
+    
+  footer {
+    font-size: 1em;
+  }
+  
+  #copyright {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
