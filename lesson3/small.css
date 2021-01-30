@@ -11,7 +11,7 @@
   
   body {
     margin: 0 auto;
-    font-family: 'Cinzel';
+    font-family: 'Nunito', sans-serif;
     background-color:#fdf29c;
   }
 
@@ -41,7 +41,7 @@
   
   
   h1 {
-    font-family:'Nunito', sans-serif;;
+    font-family:'Nunito', sans-serif;
     font-size: 2.3em;
     text-align: center;
   }
