@@ -188,6 +188,13 @@
     padding: 10px;
   }
   
+
+  .forecast {
+    text-align: center;
+  }
+  .forecastpicture {
+    width: 100%;
+  }
   /*footer {
     background-color: #2F4858;
     color: white;
@@ -205,3 +212,6 @@
     font-family: 'Titillium Web', sans-serif;
   }
   
+
+
+ 
