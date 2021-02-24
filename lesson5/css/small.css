@@ -1,250 +1,216 @@
-a {
-  color: #05386B;
+.footer-a {
+  color:#D51920;
   font-weight: bold;
 }
 
-#announce {
-  display: none;
-  background-color: #5cdb95;
-  color: #05386B;
-  text-align: center;
-  font-size: 1.2em;
-  padding: 5px;
-  font-weight: bold;
+#content {
+  background-color: #FFF185;
+  border-radius: 40px;
+  margin: 20px auto;
+  justify-content:center;
 }
 
-.articlediv p {
-  color: #05386B;
+.contents {
+  display: block;
+  margin: 30px auto;
+  border: 1px dotted #2F4858;
+  padding: 30px;
+  background-color: #26A6D1;
+  color: #2F4858;
+  font-style: italic;
+  font-size: 1.1em;
+  border-radius: 15px;
 }
 
-.articlediv {
-	display: block;
-	margin-top: 15px;
-	padding: 10px;
-  border: 1px solid #000;
-  color: #05386B;
-}
-
-#article_img {
-  width: 100%;
-}
 
 body {
   margin: 0 auto;
-  font-family: Century-Schoolbook;
-  background-color: #EDF5E1;
+  font-family: 'Nunito', sans-serif;
+  background-color:#fdf29c;
 }
 
-.contact_info {
-  grid-column: 1;
-  margin: auto;
-}
-
-.contact_info h3, .contact_info h4 {
+header, main, footer {
+  margin: 1rem;
+  padding: 0.5rem;
+  max-width: 20em;
+  border-radius: 15px;
   text-align: center;
-  color: #05386B;
 }
 
-.contactdiv h4 {
-  text-decoration: underline;
-}
-
-.contactdiv {
-	display: grid;
-	grid-template-columns: 1fr;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 10px;
-	border: 1px solid #000;
-}
-
-#degrees1, #degrees2, #degrees3, #degrees4, #degrees5 {
-  color: #05386b;
-}
-
-#fiveDay {
-  margin: 0 auto;
-  width: 700px;
+header, footer, footer a {
   text-align: center;
-  color: #05386b;
+  background-color: #2F4858;
+  color:white;
+  box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+  max-width: 100%;
 }
 
-.forecastdiv {
-  display: none;
-}
+/*header {
+  text-align: center;
+  background-color: #2F4858;
+  color: white;
+  border-radius: 15px;
+  padding-bottom: 22px;
+  
+}*/
 
-#forecastDay {
-  background-color: #8ee4af;
-  color: #05386b;
-  font-family: Century-Gothic;
-}
-
-header {
-  color: #5CDB95;
-  align-items:center;
-  justify-content: center;
-  display: flex;
-  padding: 5px 0;
-  font-family: Century-Gothic;
-}
-
-header img {
-  height: 80px;
-  width: auto;
-  padding-right: 10px;
-}
-
-.heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.heading h1 {
-  font-size: 1.8em;
-  font-family: Century-Schoolbook;
-  margin-bottom: 0px;
-}
 
 h1 {
-  font-family: Century-Schoolbook;
-  font-size: 1.8em;
-  text-shadow: 1px 1px 1px #05386b;
+  font-family:'Nunito', sans-serif;
+  padding-right: 50%;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-family: Century-Schoolbook;
-  color: #5cdb95;
-  text-shadow: 1px 1px 1px #05386b;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Noto Serif', serif;
 }
 
 h3 {
-  font-family: Century-Schoolbook;
-  font-size: 1.2em;
-  color: #5cdb95;
-  text-shadow: .5px .5px .5px #05386b;
+  padding-bottom: 7.5px;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.1em;
 }
 
-.forecastdiv h3, .articlediv h3 {
-  text-align: center;
-}
 
-h4 {
-  color: #05386b;
-  font-family: 'Titillium Web', sans-serif;
-}
+#logo {
+  width: 8%;
+  height: 8%;
+  float: left;
+  padding-left: 42%;
+  padding-top: 3%;
 
-.section_head {
-  text-align: center;
-  color: #5CDB95;
-}
-
-.herodiv {
-	margin: 10px auto;
-  position: relative;}
-  
-.herodiv img {
-  width: 100%;
-}
-
-.summary {
-	position: absolute;
-  top: 0px;
-  font-size: .75em;
-	background: radial-gradient(#eee, #EDF5E1);
-	border: 1px solid #000;
-	padding: 5px;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
-}
-
-.summary p {
-  color: #05386B;
-  font-weight: bolder;
 }
 
 main {
-  margin: auto;
-}
-
-.motto {
-  font-style: italic;
-  font-size: .9em;
-  letter-spacing: 1pt;
-  color: #379683;
-}
-
-#map {
-  margin: auto;
-  border: 2px solid #05386b;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin:auto;
 }
 
 nav {
-	margin: 0 auto;
-  background-color: #5CDB95;
+  background-color: #26A6D1;
+  padding: 1em;
   border-radius: 15px;
 }
 
-nav ul li a.active{
-  background-color: #379683;
+nav a {
+  font-size: 0.9em;
+padding: .5em .5em;
+  line-height: 1.45em;
+  color: #2F4858;
+  text-decoration: none;
+  border-radius: 15px;
 }
 
-.nav_bar {
+nav li{
+  font-family: 'Nunito', sans-serif;;
+  font-size: 1.25em;
+  border-radius: 15px;
+}
+
+nav ul {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
   list-style: none;
-  text-align: center;
-	padding: 0;
+  border-radius: 15px;
 }
 
-.nav_bar li:first-child {
-	display: block;
+nav a:hover {
+   background-color: #2F4858;
+  color: #26A6D1;
+  border-radius: 15px;
 }
 
-.nav_bar li {
-	display: none;
-}
-
-.nav_bar a {
-	display: block;
-	padding: 0.75rem;
-	text-align: center;
-	text-decoration: none;
-	color: #05386B;
-	font-weight: 700;
-}
-
-.nav_bar a:hover {
-	color: #05386B;
-	background-color: #8EE4AF;
-}
-
-.responsive li {
-	display: block;
-}
 
 p {
-  font-family: Century-Schoolbook;
+  font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  color:	#5CDB95;
+  font-weight: bold;
+  color:	black;
 }
 
-footer {
-  background-color:#379683;
-  color: #05386B;
-  font-family: Century-Gothic;
-  font-size: 16px;
+table {
+  min-width: 350px;
+  width: 100%;
+  margin: auto;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 10px;
+}
+
+.typography-samples {
+    min-width: 50%;
+}
+
+
+th {
+  background-color: white;
+  color: #4682B4;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.sunnyimg {
+  width: 100%;
+}
+
+section {
+  background-color: #4682B4;
   border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+table, th, td {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.summary {
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  font-size: 0.65em;
+  background: rgba(240, 240, 240, 0.7);
+  border: 2px solid #2F4858;
+  padding: 5px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+  color: #2F4858;
+  margin: 10px;
+}
+
+.icon {
+  width: 40px;
+  padding: 10px;
+}
+
+
+.forecast {
+  text-align: center;
+}
+.forecastpicture {
+  width: 100%;
+}
+/*footer {
+  background-color: #2F4858;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 15px;  
+}*/
+
+  
+footer {
+  font-size: 1em;
 }
 
 #copyright {
   font-family: 'Titillium Web', sans-serif;
 }
 
-#dates {
-  font-size: 1.0em;
-  font-family: 'Titillium Web', sans-serif;
-  padding-top: 5px;
-}
+
+
