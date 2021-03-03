@@ -203,6 +203,28 @@
     padding-top: 15px;  
   }*/
 
+  #gallery_imgs {
+    display: block;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  #gallery_imgs figure {
+    margin: 0;
+    padding: 0;
+    margin-left: 13%;
+  }
+  
+  #gallery_imgs figcaption {
+    font-family: 'Noto Serif', serif;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .galleryImage {
+    width: 100%;
+  }
+
     
   footer {
     font-size: 1em;
