@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Natália Artigas Taparosky | WDD230 Weather Site Plan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../lesson7/css/small.css">
+    <link rel="stylesheet" href="../lesson7/css/medium.css">
+    <link rel="stylesheet" href=".../lesson7/css/large.css">
+  </head>
+  <body>
+       <header>
+      <h1>Lazy Load</h1>
+      </header>
+       <main>
+            <img src="http://via.placeholder.com/300x400.png" data-src="/lesson7/images/groot.jpg" alt="baby groot">
+            <img src="http://via.placeholder.com/300x400.png" data-src="/lesson7/images/tape.jpg" alt="holding tape">
+            <img src="http://via.placeholder.com/300x400.png" data-src="/lesson7/images/galaxy.jpg" alt="guardians of the galaxy">
+            <img src="http://via.placeholder.com/300x400.png" data-src="/lesson7/images/widow.jpg" alt="Natasha Romanoff">
+            <img src="http://via.placeholder.com/300x400.png" data-src="/lesson7/images/thanos.jpg" alt="the six stones"> 
+      </main>
+    
+
+
+<footer>
+
+  <p>&copy; <span id="currentyear"></span>  | Natália Artigas Taparosky | Brazil | <a class="footer-a" href="https://www.byui.edu/online" 
+        target="_blank">BYUI Online Learning</a></p>
+        <script src="js/lazyload.js"></script>
+        <script>
+        var date = document.lastModified;
+          document.write("Last update: " + date);
+          document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+        </script>
+  </footer>
+</div>
+  </body>
+  </html> 
