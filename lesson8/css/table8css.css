@@ -1,0 +1,45 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    box-shadow: 8px 8px 10px #628ca6;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: .5em;
+    text-align: center;
+
+}
+
+thead tr td, tfoot tr td {
+    background-color: #7fb9c2;
+    font-weight: bold;
+}
+
+thead tr td {
+    font-size: 1.5em;
+}
+
+tfoot tr td {
+    font-size: .7em;
+}
+
+th, .mark {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
