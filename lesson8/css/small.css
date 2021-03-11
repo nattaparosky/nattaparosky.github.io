@@ -207,14 +207,14 @@
     margin: 2rem 0;
     border: 1px solid #2F4858;
     border-radius: 10px;
-    padding: .5rem 2%;
+    padding: 0.5rem;
   }
   
-  form legend {
+  legend {
     color: #2F4858;
-    margin: 0 1rem;
+    margin: 0;
     padding: 0;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
   }
   
   form label.top, form label.info, form div {
