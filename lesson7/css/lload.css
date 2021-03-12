@@ -1,0 +1,24 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFF185;
+  margin: 0 auto;
+}
+
+h1 {
+font-size: 2.5em;
+padding: 15px;
+text-align: center;
+color: #2F4858;
+font-family: 'Nunito', sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+
+img[data-src] {
+  filter: blur(.5em);
+}
