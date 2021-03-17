@@ -19,28 +19,28 @@
       font-size: 1.8em;
     }
   
-    /*header{
-      height: 40px;
-      flex-wrap: wrap;
-      border-radius: 15px;
+    .motto {
+      letter-spacing: 1.5pt;
+      font-size: larger;
+      font-size: 1.5em;
+  }
+
+    .navbar {
+          display: flex;
     }
-  
-    footer {
-      border-radius: 15px;
-      height: 40px;
-    }*/
-  
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
-  
-    section:nth-child(1) {
-      grid-column: span 1;
-      margin-top: 20px;
-  }
-  
-    section:nth-child(2) {
-      grid-column: span 1;
-      margin-top: 20px;
-  }
+
+    .navbar li {
+          display: block; 
+          flex: 1 1 auto;
+    }
+
+    .navbar a {
+          text-align: center;
+    }
+
+    .navbar li:first-child {
+          display: none;
+    }
+
     
   }

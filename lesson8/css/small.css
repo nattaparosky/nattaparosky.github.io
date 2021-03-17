@@ -96,13 +96,17 @@
   
   nav {
     background-color: #26A6D1;
-    padding: 1em;
+    padding: 1rem;
     border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
   }
   
   nav a {
+    display: block;
+    text-align: center;
     font-size: 0.9em;
-  padding: .5em .5em;
     line-height: 1.45em;
     color: #2F4858;
     text-decoration: none;
@@ -110,9 +114,14 @@
   }
   
   nav li{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 1.25em;
-    border-radius: 15px;
+    border-radius: 10px;
+    display: none;
+  }
+
+  .navbar .active{
+    background-color:#fdf29c;
   }
   
   nav ul {
@@ -129,37 +138,22 @@
     border-radius: 15px;
   }
 
+  nav a:active {
+    color: #26A6D1;
+  }
+
   .navbar {
-    display: flex;
     list-style: none;
     text-align: center;
     padding: 0;
   }
   
   .navbar li:first-child {
-    display: block;
+      display: block;
   }
   
-  .navbar li {
-    display: none;
-  }
-  
-  .navbar a {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
-    color: #2F4858;
-    font-weight: 700;
-  }
-  
-  .navbar a:hover {
-    color: #2F4858;
-    background-color: #26A6D1;
-  }
-
-  .responsive li {
-    display: block;
+  .menu-id li {
+      display: block;
   }
   
   
