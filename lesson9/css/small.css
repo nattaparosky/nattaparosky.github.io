@@ -1,0 +1,318 @@
+.footer-a {
+    color:#D51920;
+    font-weight: bold;
+  }
+  
+  #content {
+    background-color: #FFF185;
+    border-radius: 40px;
+    margin: 20px auto;
+    justify-content:center;
+  }
+  
+  .contents {
+    display: block;
+    margin: 30px auto;
+    border: 1px dotted #2F4858;
+    padding: 30px;
+    background-color: #26A6D1;
+    color: #2F4858;
+    font-style: italic;
+    font-size: 1.1em;
+    border-radius: 15px;
+  }
+
+  
+  body {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    background-color:#fdf29c;
+  }
+
+  header, main, footer {
+    margin: auto;
+    padding: 0.5rem;
+    max-width: 20em;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  header, footer, footer a {
+    text-align: center;
+    background-color: #2F4858;
+    color:white;
+    box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+    max-width: 100%;
+  }
+  
+  /*header {
+    text-align: center;
+    background-color: #2F4858;
+    color: white;
+    border-radius: 15px;
+    padding-bottom: 22px;
+    
+  }*/
+  
+  
+  h1 {
+    font-family:'Nunito', sans-serif;
+    padding-right: 50%;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Noto Serif', serif;
+  }
+  
+  h3 {
+    padding-bottom: 7.5px;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  
+  
+  #logo {
+    width: 8%;
+    height: 8%;
+    float: left;
+    padding-left: 42%;
+    padding-top: 3%;
+
+  }
+  
+  main {
+    margin: auto;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #26A6D1;
+  }
+  
+  nav {
+    background-color: #26A6D1;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.45em;
+    color: #2F4858;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  nav li{
+    font-family: 'Nunito', sans-serif;;
+    font-size: 1.25em;
+    border-radius: 10px;
+    display: none;
+  }
+
+  .navbar .active{
+    background-color:#fdf29c;
+  }
+  
+  nav ul {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    margin: 0;
+    list-style: none;
+    border-radius: 15px;
+  }
+  
+  nav a:hover {
+     background-color: #2F4858;
+    color: #26A6D1;
+    border-radius: 15px;
+  }
+
+  nav a:active {
+    color: #26A6D1;
+  }
+
+  .navbar {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .navbar li:first-child {
+      display: block;
+  }
+  
+  .menu-id li {
+      display: block;
+  }
+  
+  
+  
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color:	black;
+  }
+  
+  table {
+    min-width: 350px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .typography-samples {
+      min-width: 50%;
+  }
+  
+  
+  th {
+    background-color: white;
+    color: #4682B4;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+
+  .sunnyimg {
+    width: 100%;
+  }
+  
+  section {
+    background-color: #4682B4;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  table, th, td {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .summary {
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    font-size: 0.65em;
+    background: rgba(240, 240, 240, 0.7);
+    border: 2px solid #2F4858;
+    padding: 5px;
+    box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+    color: #2F4858;
+    margin: 10px;
+  }
+
+  .icon {
+    width: 40px;
+    padding: 10px;
+  }
+  
+
+  .forecast {
+    text-align: center;
+  }
+  .forecastpicture {
+    width: 100%;
+  }
+  /*footer {
+    background-color: #2F4858;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;  
+  }*/
+
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #2F4858;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  
+  legend {
+    color: #2F4858;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  
+  form label.top, form label.info, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #2F4858;
+    font-size: .8rem;
+  }
+  
+  form label.info input:required {
+    border-left: #D51920 solid 6px;
+  }
+  
+  form label.info input:required:valid {
+    border-left: #2a9d8f solid 6px;
+  }
+  
+  form label.top input, form label.info input, form label.storm select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #2F4858
+    ;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #ffffff;
+  }
+  
+  form label.radios {
+    display: block;
+    padding-top: 1em;
+  }
+  
+  form label.storm {
+    display: block;
+    padding: .75rem 0;
+    color: #2F4858;
+  }
+  
+  form input.submit_button {
+    border: none;
+    background-color: #26A6D1;
+    color: #2F4858;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+  }
+  
+    
+
+    
+  footer {
+    font-size: 1em;
+  }
+  
+  #copyright {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+
+
+ 
