@@ -29,7 +29,7 @@
     background-color:#fdf29c;
   }
 
-  header, main, footer {
+  header, main {
     margin: auto;
     padding: 0.5rem;
     max-width: 20em;
@@ -37,12 +37,14 @@
     text-align: center;
   }
 
-  header, footer, footer a {
+  header, footer {
     text-align: center;
     background-color: #2F4858;
     color:white;
     box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
+    margin: auto;
     max-width: 100%;
+    border-radius: 15px;
   }
   
   /*header {
@@ -87,20 +89,13 @@
     margin: auto;
   }
   
-  .motto {
-    font-style: italic;
-    font-size: .9em;
-    letter-spacing: 1pt;
-    color: #26A6D1;
-  }
   
   nav {
     background-color: #26A6D1;
     padding: 1rem;
     border-radius: 15px;
-    width: 100%;
-    margin: 0 auto;
     text-align: center;
+    box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
   }
   
   nav a {
@@ -113,19 +108,19 @@
     border-radius: 15px;
   }
   
-  nav li{
+  nav li {
     font-family: 'Nunito', sans-serif;;
     font-size: 1.25em;
     border-radius: 10px;
     display: none;
   }
 
-  .navbar .active{
+  .navbar .active  {
     background-color:#fdf29c;
   }
   
   nav ul {
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     margin: 0;
     list-style: none;
@@ -133,7 +128,7 @@
   }
   
   nav a:hover {
-     background-color: #2F4858;
+    background-color: #2F4858;
     color: #26A6D1;
     border-radius: 15px;
   }
@@ -157,14 +152,13 @@
   }
   
   
-  
   p {
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
     font-weight: bold;
     color:	black;
   }
-  
+
   table {
     min-width: 350px;
     width: 100%;
@@ -229,87 +223,43 @@
   .forecastpicture {
     width: 100%;
   }
-  /*footer {
-    background-color: #2F4858;
-    color: white;
-    font-size: 1em;
+
+  .cards {
     text-align: center;
-    padding-top: 15px;  
-  }*/
-
-  form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #2F4858;
-    border-radius: 10px;
-    padding: 0.5rem;
-  }
-  
-  legend {
-    color: #2F4858;
-    margin: 0;
-    padding: 0;
-    font-size: 1.2rem;
-  }
-  
-  form label.top, form label.info, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #2F4858;
-    font-size: .8rem;
-  }
-  
-  form label.info input:required {
-    border-left: #D51920 solid 6px;
-  }
-  
-  form label.info input:required:valid {
-    border-left: #2a9d8f solid 6px;
-  }
-  
-  form label.top input, form label.info input, form label.storm select {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #000;
-    border-radius: 4px;
-    padding: .5rem;
-    color: #2F4858
-    ;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #ffffff;
-  }
-  
-  form label.radios {
-    display: block;
-    padding-top: 1em;
-  }
-  
-  form label.storm {
-    display: block;
-    padding: .75rem 0;
-    color: #2F4858;
-  }
-  
-  form input.submit_button {
-    border: none;
-    background-color: #26A6D1;
-    color: #2F4858;
-    font-size: 1.5rem;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 2rem 5%;
-    width: 96%;
-    max-width: 20rem;
-  }
-  
-    
-
-    
-  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px; 
+    color: #3D405B;
     font-size: 1em;
+    display: grid;
   }
   
-  #copyright {
+  .cards section {
+    margin: auto;
+    border: 2px solid #3D405B;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1em;
+    }
+  
+  .cards section img {
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+   
+  .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  
+
+   #copyright {
     font-family: 'Titillium Web', sans-serif;
   }
   

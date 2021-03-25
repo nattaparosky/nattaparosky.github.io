@@ -1,4 +1,37 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 700px) {
+
+  #announce {
+    height: 25px;
+  }
+
+  #article_img {
+    padding-left: 5px;
+    float: right;
+    width: 35%;
+  }
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards section:nth-child(odd) img {
+    grid-column: 1;
+  }
+
+  .cards section:nth-child(odd) #details {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .contact_info {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .contactdiv {
+    grid-template-columns: 1fr 1fr;
+  }
 
     body {
       width: 1000px;
@@ -18,12 +51,6 @@
     h2 {
       font-size: 1.8em;
     }
-  
-    .motto {
-      letter-spacing: 1.5pt;
-      font-size: larger;
-      font-size: 1.5em;
-  }
 
     .navbar {
           display: flex;
@@ -43,4 +70,23 @@
     }
 
     
+  }
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+  }
+
+  .cards section:nth-child(odd) img {
+    grid-column: 1;
+  }
+
+  .cards section:nth-child(odd) #details {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .sunnyimg {
+    width: 100%;
   }
