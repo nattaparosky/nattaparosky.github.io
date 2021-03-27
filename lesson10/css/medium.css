@@ -1,0 +1,59 @@
+@media only screen and (min-width: 32.5em) {
+
+    body {
+      width: 1000px;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+      margin-top: 17px;
+      margin-left: 500px;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+      max-width: 900px;
+  }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    /*header{
+      height: 40px;
+      flex-wrap: wrap;
+      border-radius: 15px;
+    }
+  
+    footer {
+      border-radius: 15px;
+      height: 40px;
+    }*/
+    .navbar {
+      display: flex;
+    }
+    
+    .navbar li {
+      display: block; 
+      flex: 1 1 auto;
+    }
+    
+    .navbar a {
+      text-align: center;
+    }
+    
+    .navbar li:first-child {
+      display: none;
+    }
+  
+    section:nth-child(1) {
+      grid-column: span 1;
+      margin-top: 20px;
+  }
+  
+    section:nth-child(2) {
+      grid-column: span 1;
+      margin-top: 20px;
+  }
+    
+  }
