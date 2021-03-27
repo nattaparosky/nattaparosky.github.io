@@ -151,6 +151,12 @@ nav a:active {
 	display: block;
 }
 
+#temp1, #temp2, #temp3, #temp4, #temp5 {
+  color: #2F4858;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+}
+
 p {
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
@@ -175,7 +181,6 @@ table {
 .typography-samples {
     min-width: 50%;
 }
-
 
 th {
   background-color: white;
